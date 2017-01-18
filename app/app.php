@@ -40,9 +40,9 @@
         $new_rectangle = new Rectangle($_GET["length"], $_GET["width"]); // 1) We Instantiation, grab user input
         $area = $new_rectangle->getArea(); // 2) Then we apply the method to the new Rectangle object, put the value in $area variable
         if ($new_rectangle->isSquare()) {  // implicitly asking if it's "true"
-          return "<h2>It's a Skwuare! Bitches!</h2>";
+          return "<h2>It's a Skwuare! Bitches!</h2><h3>The Area is: " . $area . "</h3>";
         } else {
-          return "<h2>It's a Rektangle Hosers!</h2>";
+          return "<h2>It's a Rektangle Hosers!</h2></h2><h3>The Area is: " . $area . "</h3>";
         }
 
     });

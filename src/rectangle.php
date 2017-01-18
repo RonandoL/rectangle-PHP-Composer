@@ -31,7 +31,7 @@
     }
 
 // GET LENGTH
-    function getLength($new_length)
+    function getLength()
     {
         return $this->length;
     }
