@@ -19,7 +19,7 @@
         }
     }
 
-    function area()  // method to calculate area
+    function getArea()  // method to calculate area
     {
         return $this->length * $this->width;
     }
